@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem auto;
+    width: 90%;
+    gap: 2rem;
+}
+
+.main-section h1 {
+    color: black;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-button {
+    text-decoration: none;
+    background-color: #678345;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.item-name {
+    order: 1;
+}
+
+.item-price {
+    order: 2;
+}
